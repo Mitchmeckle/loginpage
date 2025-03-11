@@ -1,0 +1,41 @@
+.parent{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(121, 219, 137);
+    padding: 0px 20px
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(89, 184, 160);
+    font-size: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: rgb(77, 158, 120);
+    font-size: 20px;
+}
+
+.Button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
